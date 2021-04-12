@@ -8466,6 +8466,10 @@ button.bg-dark:focus {
 .my-md-5 {
     margin-bottom: 3rem !important;
   }
+  .myRow {
+      padding: 10px;
+      margin: 10px;
+  }
 
   .ml-md-5,
 .mx-md-5 {
