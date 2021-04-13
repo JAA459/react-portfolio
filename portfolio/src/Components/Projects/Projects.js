@@ -11,7 +11,7 @@ const Projects = (props) => {
               <div class="col-lg-4 col-sm-6">
                 <a
                   class="portfolio-box"
-                  href="assets/img/portfolio/fullsize/1.jpg"
+                  href={item.url}
                 >
                    <img
                     class="img-fluid"
@@ -20,8 +20,8 @@ const Projects = (props) => {
                     alt=""
                   /> 
                   <div class="portfolio-box-caption">
-                    <div class="project-category text-white-50">Category</div>
-                    <div class="project-name">{item.name}</div>
+                    <div class="project-category text-white-50">{item.name}</div>
+                    <div class="project-name">{item.description}</div>
                   </div>
                 </a>
               </div>
